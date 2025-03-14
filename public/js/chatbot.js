@@ -543,7 +543,7 @@ async function openWhatsappLink() {
 }
 
 function openCasinoLink() {
-  let url = 'https://vudu8.bet/';
+  let url = 'https://medusa777.com';
   window.open(url, '_blank');
 }
 
