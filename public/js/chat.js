@@ -635,18 +635,17 @@ function copyNumber() {
 function selectPredefinedMessage() {
     const predefinedMessages = [
         {
-            title: 'Bienvenida', content: `Bienvenido! Somos LD club, más de 10 años en el rubro! 
+            title: 'Bienvenida', content: `Bienvenido! Somos Medusa777 
 
         ¡𝐉𝐔𝐆𝐀 𝐒𝐈𝐍 𝐋𝐈𝐌𝐈𝐓𝐄𝐒, 𝑪𝑶𝑵 𝑺𝑬𝑮𝑼𝑹𝑰𝑫𝑨𝑫, 𝑷𝑹𝑰𝑽𝑨𝑪𝑰𝑫𝑨𝑫 𝒀 𝑪𝑶𝑵𝑭𝑰𝑨𝑵𝒁𝑨!
         
-        𝗕𝗼𝗻𝗼 𝗱𝗲 𝗯𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗮 𝗱𝗲𝗹 𝟯𝟬% 𝗱𝗲𝘀𝗱𝗲 𝟯.𝟬𝟬𝟬 𝗲𝗻 𝗹𝗮 𝗺𝗲𝗷𝗼𝗿 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮 𝗱𝗲𝗹 𝗺𝗲𝗿𝗰𝗮𝗱𝗼 🔥
-        https://www.ghostrouter.online/vudu
+        https://medusa777.lat
         𝙋𝙚𝙙𝙞́ 𝙩𝙪 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙙𝙚 𝙡𝙖 𝙨𝙪𝙚𝙧𝙩𝙚 
         
         𝙋𝘼𝙂𝙊 𝙀𝙉 𝙀𝙇 𝘿𝙄́𝘼` },
-        { title: 'Link', content: 'Te dejo el link de la plataforma: https://www.ghostrouter.online/vudu' },
-        { title: 'Whatsapp', content: 'Te dejo mi numero de Whatsapp para que sigamos hablando por ahi! Agendame! https://www.ghostrouter.online/phone' },
-        { title: 'Whatsapp2', content: 'Pasame tus datos para el premio a este numero por favor! https://www.ghostrouter.online/phone' },
+        { title: 'Link', content: 'Te dejo el link de la plataforma:  https://medusa777.lat' },
+        { title: 'Whatsapp', content: 'Te dejo mi numero de Whatsapp para que sigamos hablando por ahi! Agendame!' },
+        { title: 'Whatsapp2', content: 'Pasame tus datos para el premio a este numero por favor! 54' },
         { title: 'Cronograma', content: 'LOS PREMIOS SE PAGAN EN EL DIA!' },
         { title: 'Agradecimiento', content: 'Gracias por tu compra. Esperamos verte pronto de nuevo.' }
     ];
