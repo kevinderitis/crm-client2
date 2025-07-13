@@ -635,15 +635,9 @@ function copyNumber() {
 function selectPredefinedMessage() {
     const predefinedMessages = [
         {
-            title: 'Bienvenida', content: `Bienvenido! Somos Medusa777 
-
-        ¡𝐉𝐔𝐆𝐀 𝐒𝐈𝐍 𝐋𝐈𝐌𝐈𝐓𝐄𝐒, 𝑪𝑶𝑵 𝑺𝑬𝑮𝑼𝑹𝑰𝑫𝑨𝑫, 𝑷𝑹𝑰𝑽𝑨𝑪𝑰𝑫𝑨𝑫 𝒀 𝑪𝑶𝑵𝑭𝑰𝑨𝑵𝒁𝑨!
-        
-        https://medusa777.lat
-        𝙋𝙚𝙙𝙞́ 𝙩𝙪 𝙪𝙨𝙪𝙖𝙧𝙞𝙤 𝙙𝙚 𝙡𝙖 𝙨𝙪𝙚𝙧𝙩𝙚 
-        
-        𝙋𝘼𝙂𝙊 𝙀𝙉 𝙀𝙇 𝘿𝙄́𝘼` },
-        { title: 'Link', content: 'Te dejo el link de la plataforma:  https://medusa777.lat' },
+            title: 'Bienvenida', content: `🎉 Bienvenido! ¡Somos JCONLINE atención las 24 hs solo por hoy, TENEMOS BONO DE BIENVENIDA 🎰 10% a partir de $5.000. El bono cubre hasta 20.000 fichas extras no son extraíbles 🍀 MÍNIMO DE CARGA $3.000, MÍNIMO DE RETIRO $10.000 ‼️ ⚠️ IMPORTANTE : Si nos envías una captura de pantalla, por whatsapp, donde se vea que nos tenes agendados, DUPLICAMOS tu bono 🙌 20% a partir de $5.000 🥳`
+        },
+        { title: 'Link', content: 'Te dejo el link de la plataforma:' },
         { title: 'Whatsapp', content: 'Te dejo mi numero de Whatsapp para que sigamos hablando por ahi! Agendame!' },
         { title: 'Whatsapp2', content: 'Pasame tus datos para el premio a este numero por favor! 54' },
         { title: 'Cronograma', content: 'LOS PREMIOS SE PAGAN EN EL DIA!' },
@@ -947,12 +941,12 @@ async function getAllMessages() {
 }
 
 async function selectUser(email, phone) {
-    selectedUser = email; 
+    selectedUser = email;
     const usernameId = document.getElementById('username-id');
     let chat = await getChatMessages(email, 10);
 
     selectedUserType = chat.type;
-    
+
     if (chat.tags) {
         renderTags(chat.tags);
     } else {

@@ -553,7 +553,7 @@ async function openWhatsappLink() {
 }
 
 function openCasinoLink() {
-  let url = 'https://medusa777.lat';
+  let url = 'https://';
   window.open(url, '_blank');
 }
 
